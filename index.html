@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./imagens/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.cdnfonts.com/css/trajan-pro?styles=17675,17676"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+    <title>DARK SOULS™ III</title>
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source
+          src="./video/Dark Souls 3 Official Launch Trailer.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <header class="cabecalho">
+      <a>
+        <img class="logo" src="./imagens/eclipse.png" alt="eclipse"/>
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Detalhes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem-titulo"
+          src="./imagens/titulo.png"
+          alt="imagem do título do jogo"
+        />
+        <p class="descricao">
+          Com o fogo se apagando e o mundo caindo em ruínas, você precisa se
+          aventurar em um universo repleto de inimigos e ambientes colossais.
+          Jogadores entrarão em um mundo de trevas e atmosfera épica, com uma
+          jogabilidade mais ágil e combates mais intensos. Agora só restam
+          cinzas... Prepare-se para abraçar a escuridão mais uma vez!
+        </p>
+        <button class="botao-trailer">Veja o trailer</button>
+      </div>
+
+      <!-- <img class="soul-of-cinder" src="./imagens/soul-of-cinder.png"/> -->
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0RAlGv-IW4g"
+            title="Trailer cinematic"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encryoted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
